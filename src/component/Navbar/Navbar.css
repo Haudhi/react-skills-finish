@@ -1,0 +1,33 @@
+#me-auto {
+  margin-left: 55vw;
+}
+
+.nav-links {
+  margin-right: 3vw;
+}
+
+.navbar {
+  background-color: #4b6584;
+}
+
+.nav-login {
+  background-color: #6a89cc;
+  font-size: 1.2em;
+  width: 8vw;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-login {
+    width: 20vw;
+  }
+
+  #me-auto {
+    margin-left: 35vw;
+  }
+}

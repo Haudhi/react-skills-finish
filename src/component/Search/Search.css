@@ -1,0 +1,32 @@
+#search {
+  text-align: center;
+}
+
+.searchTitle {
+  font-size: 3vw;
+}
+
+.search-input {
+  font-size: 2vw;
+  padding: 0.5em;
+  width: 50%;
+  border-radius: 8px;
+  margin-right: 2vw;
+}
+
+.search-btn {
+  font-size: 2vw;
+  padding: 0.5em;
+  border-radius: 8px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+}
+
+.search-btn:active {
+  transform: translateY(5px);
+}
+
+.searchTwo {
+  margin-bottom: 3vw;
+}

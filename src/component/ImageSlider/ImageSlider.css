@@ -1,0 +1,13 @@
+.slide {
+  top: 0vw;
+  width: 90vw;
+  text-align: center;
+  padding: 1vw;
+  padding-left: 4vw;
+}
+
+#imgsl {
+  width: 20vw;
+  height: 50vw;
+  border-radius: 20px;
+}

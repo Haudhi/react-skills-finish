@@ -1,0 +1,73 @@
+#contacts {
+  margin-top: 3vw;
+  padding-bottom: 3vw;
+  background-color: #fd9644;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2em;
+  padding-top: 2vw;
+}
+
+.home {
+  display: flex;
+  margin: 1em;
+  list-style: none;
+  font-size: 1em;
+}
+
+.sosmed {
+  display: flex;
+  list-style: none;
+  margin: 1vw;
+  font-size: 2em;
+}
+
+li {
+  margin: 1vw;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cate {
+  display: flex;
+}
+
+h5 {
+  text-align: center;
+}
+
+.contact {
+  width: 15em;
+}
+
+@media screen and (max-width: 960px) {
+  .down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sosmed {
+    font-size: 1em;
+  }
+
+  .home {
+    font-size: 0.5em;
+  }
+}

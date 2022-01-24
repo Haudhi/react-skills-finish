@@ -1,0 +1,32 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: center;
+}
+
+#items {
+  margin: 1em;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 250px;
+  padding: 1em;
+}
+
+.imgProduct {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.productTitle {
+  font-size: 1em;
+}
+
+.buy {
+  margin-left: 6vw;
+  background-color: rgb(240, 140, 10);
+  border-radius: 8px;
+  font-size: 1.4em;
+  width: 5em;
+}

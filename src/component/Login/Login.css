@@ -1,0 +1,146 @@
+.loginn {
+  background-color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #bdc3c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin: 2em;
+  border-radius: 5px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btnLogin {
+  background-color: cadetblue;
+  color: white;
+  width: 50%;
+  height: auto;
+  font-size: 1.2em;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.btnLogin:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.btnLogin:active {
+  transform: translateY(5px);
+}
+
+.top {
+  font-size: 2em;
+  margin: 1em;
+  font-family: serif;
+  text-align: center;
+}
+
+.input {
+  font-size: 1.2em;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+.lupa {
+  color: red;
+  margin-right: -8vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.lupa:hover {
+  color: brown;
+}
+
+.cekbok {
+  margin-left: -8vw;
+  margin-bottom: 1.8em;
+  font-size: 1em;
+}
+
+.checkbox {
+  width: 2rem;
+  height: 1.1rem;
+}
+
+span {
+  color: red;
+  font-weight: 480;
+  cursor: pointer;
+}
+
+span:hover {
+  color: brown;
+}
+
+#form {
+  background-color: #1abc9c;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+#email {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 960px) {
+  .top {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .input {
+    font-size: 4vw;
+  }
+
+  #email {
+    font-size: 5vw;
+  }
+
+  .lupa {
+    font-size: 1em;
+  }
+
+  .cekbok {
+    font-size: 1em;
+  }
+
+  .belum {
+    font-size: 4vw;
+  }
+
+  .btnLogin {
+    font-size: 1.2em;
+  }
+
+  .main {
+    width: 80vw;
+    height: auto;
+    position: relative;
+  }
+}
